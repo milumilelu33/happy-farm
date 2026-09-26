@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/game/game",
+    "pages/shop/shop",
+    "pages/farm/farm",
+    "pages/barn/barn",
+    "pages/settings/settings"
+  ],
+  "window": {
+    "backgroundColor": "#F5E6D3",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#8B7355",
+    "navigationBarTitleText": "开心农场",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8B7355",
+    "selectedColor": "#4CAF50",
+    "backgroundColor": "#FFF8E7",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/game/game",
+        "text": "农场"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商店"
+      },
+      {
+        "pagePath": "pages/barn/barn",
+        "text": "谷仓"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "设置"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
